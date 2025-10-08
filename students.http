@@ -1,0 +1,28 @@
+### Create
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "name": "Ali",
+  "major": "CS",
+  "grade": 90.5
+}
+
+### List
+GET http://localhost:8080/api/students
+
+### One
+GET http://localhost:8080/api/students/1
+
+### Update
+PUT http://localhost:8080/api/students/1
+Content-Type: application/json
+
+{
+  "name": "Sara",
+  "major": "IT",
+  "grade": 85.0
+}
+
+### Delete
+DELETE http://localhost:8080/api/students/1
